@@ -5,4 +5,4 @@ with (other) // other means any obj_enemy, i.e. discreet objects rather than app
 	hp = hp -1;
 }
 
-instance_destroy(); // kill enemy
+instance_destroy();
