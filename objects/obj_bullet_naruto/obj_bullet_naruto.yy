@@ -1,38 +1,28 @@
 {
-    "id": "aa51ed77-f759-45e0-9fb4-75e45008582b",
+    "id": "fa9bd595-7e04-4ebf-8fb5-00e3de06d9f9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy",
+    "name": "obj_bullet_naruto",
     "eventList": [
         {
-            "id": "668be824-c108-41ee-97f4-f3230b47464a",
+            "id": "4d040489-3200-4ce8-9da4-3dd3e26d2732",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "aa51ed77-f759-45e0-9fb4-75e45008582b"
+            "m_owner": "fa9bd595-7e04-4ebf-8fb5-00e3de06d9f9"
         },
         {
-            "id": "8a4fd8d1-5199-48d7-9527-cfd37ef0fecf",
+            "id": "efc9b818-f163-46f3-b374-8f426c6311da",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "aa51ed77-f759-45e0-9fb4-75e45008582b"
-        },
-        {
-            "id": "e91f094e-da80-43aa-81ba-f86e6a9303ec",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "1ad6da65-d1fc-4d2d-9377-0f192694cfa4",
+            "collisionObjectId": "aa51ed77-f759-45e0-9fb4-75e45008582b",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "aa51ed77-f759-45e0-9fb4-75e45008582b"
+            "m_owner": "fa9bd595-7e04-4ebf-8fb5-00e3de06d9f9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -44,13 +34,13 @@
     "physicsGroup": 0,
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
-    "physicsObject": true,
+    "physicsObject": false,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "solid": true,
-    "spriteId": "df028f46-4425-4192-af70-45f857f8a228",
+    "solid": false,
+    "spriteId": "ccd2e1f9-9e1c-4b8e-8102-084d9af60ea1",
     "visible": true
 }

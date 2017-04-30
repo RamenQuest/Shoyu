@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "fa9bd595-7e04-4ebf-8fb5-00e3de06d9f9",
+            "Value": {
+                "id": "da6b618d-7ce2-4512-80c7-c872fb1562e0",
+                "resourcePath": "objects\\obj_bullet_naruto\\obj_bullet_naruto.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fef0766c-dc88-4cb4-b899-f2f8d4411b90",
             "Value": {
                 "id": "298d06bb-3f79-4959-b880-088677de1301",
