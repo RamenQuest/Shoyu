@@ -1,5 +1,7 @@
 /// @description First enemy
 
 // Enemy stats
-hp = 10; // hitpoints
+maxHp = 10; // hitpoints
+hp = maxHp;
 spd = 1;
+
