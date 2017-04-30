@@ -5,11 +5,13 @@
  scr_ai_enemy(); 
 */
 
-if (instance_exists(obj_player))
-{
-	var inst;
-	inst = instance_nearest(x, y, obj_player);
-	mp_potential_step(inst.x, inst.y, 2, false);
+switch (state) {
+	case states.idle: 
+		scr_enemy_idle(); 
+		break;
+	case states.attack:
+		scr_enemy_attack();
+		break;
 }
 
 image_angle = direction;
