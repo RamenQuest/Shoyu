@@ -14,7 +14,7 @@ switch (state) {
 		break;
 }
 
-image_angle = direction;
+
 
 // Kill the enemy
 if (hp <= 0) instance_destroy();

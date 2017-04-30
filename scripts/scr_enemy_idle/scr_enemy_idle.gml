@@ -1,4 +1,4 @@
-var chance_change = 20;
+var chance_change = 30;
 
 var inst;
 inst = instance_nearest(x, y, obj_player);
