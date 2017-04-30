@@ -7,7 +7,9 @@
 
 if (instance_exists(obj_player))
 {
-	move_towards_point(obj_player.x, obj_player.y, spd);
+	var inst;
+	inst = instance_nearest(x, y, obj_player);
+	mp_potential_step(inst.x, inst.y, 2, false);
 }
 
 image_angle = direction;
