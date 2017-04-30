@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "c46edd62-9ac6-4411-ba7a-6b566f92af03",
+            "Value": {
+                "id": "89408c24-b9c5-44e5-ac7f-b656b102468a",
+                "resourcePath": "sprites\\spr_powerup_spd\\spr_powerup_spd.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "54a8764f-8e38-4502-aaaa-1e510a94f22a",
@@ -212,6 +220,14 @@
                 "id": "d684fce3-01ff-4fc1-8a4a-bf4ca32214ce",
                 "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e3d698ea-5916-4004-83fb-b56d864871a2",
+            "Value": {
+                "id": "138b581b-48e5-471a-ad8a-c03e9ffcf851",
+                "resourcePath": "objects\\game_logic\\game_logic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -252,6 +268,14 @@
                 "id": "6036baea-e15e-4da1-b9b9-e8aef87581e6",
                 "resourcePath": "views\\f1e56c4b-102a-4a8a-b0ca-95c48574208e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6765b1b-e3e4-4a1a-bd2c-471d1b693458",
+            "Value": {
+                "id": "69d71867-cb34-41d1-99c5-89358c809f1e",
+                "resourcePath": "objects\\obj_powerup_spd\\obj_powerup_spd.yy",
+                "resourceType": "GMObject"
             }
         },
         {

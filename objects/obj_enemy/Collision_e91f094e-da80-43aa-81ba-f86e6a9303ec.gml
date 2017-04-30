@@ -1,3 +1,3 @@
-/// @description Enemy collision with player
+/// @description Collide
 
 game_restart();

@@ -1,5 +1,4 @@
-/// @description Move left
-// You can write your code in this editor
+/// @description Move Left
 
 if place_free(x-spd, y) {
 	x -= spd;

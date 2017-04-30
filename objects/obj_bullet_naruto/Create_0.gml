@@ -7,5 +7,5 @@ direction = point_direction(x, y, mouse_x, mouse_y);
 direction = direction + random_range(-4, 4);
 
 // Speed
-speed = 5; //16 px per frame
+speed = 8; //16 px per frame
 image_angle = direction;
