@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "4c55d7cf-f4db-40e5-8110-67a6837572ff",
-            "Value": {
-                "id": "27ffb418-2395-407b-91a4-c4d0c7625368",
-                "resourcePath": "sprites\\spr_hbar_back\\spr_hbar_back.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "519244d8-c269-4613-af37-f2b95ee6ab10",
             "Value": {
                 "id": "c2bef4aa-39be-42d5-8faf-1b83ce2bf6b6",
