@@ -1,4 +1,6 @@
 /// @description Constructor
+maxHp = 10;
+hp = maxHp;
 
 MoveSpeed = 4; //This is the maximum movement speed.
 Accel = 0.5; //Acceleration rate.

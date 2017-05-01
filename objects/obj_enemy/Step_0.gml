@@ -12,6 +12,9 @@ switch (state) {
 	case states.attack:
 		scr_enemy_attack();
 		break;
+	case states.search:
+		scr_enemy_search();
+		break;
 }
 
 

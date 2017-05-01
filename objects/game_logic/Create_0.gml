@@ -5,5 +5,6 @@ spawn_cooldown = 120;
 
 enum states {
 	idle,
-	attack
+	attack,
+	search
 }

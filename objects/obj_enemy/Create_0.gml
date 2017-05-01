@@ -4,6 +4,8 @@
 maxHp = 10;
 hp = maxHp;
 spd = 1;
+cooldown = 0; 
+attack_speed = 20;
 
 image_yscale = -1;
 

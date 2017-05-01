@@ -30,3 +30,6 @@ MoveH = clamp(MoveH,-MoveSpeed,MoveSpeed);
 MoveV = clamp(MoveV,-MoveSpeed,MoveSpeed);
 x += MoveH;
 y += MoveV;
+
+
+if (hp <= 0) instance_destroy();
