@@ -18,7 +18,6 @@ right = (keyboard_check(ord("D")));
 
 // Decelerate H when going faster than normal
 if (abs(MoveH) > NormalMoveSpeed || abs(MoveH) > NormalMoveSpeed) {
-	show_debug_message(MoveH);
 	MaxMoveSpeed -= Accel*3;
 } else {
 	MoveH += ((-left + right) * Accel);
@@ -31,7 +30,6 @@ if !left && !right && MoveH != 0
 
 // Decelerate V when going faster than normal
 if (abs(MoveV) > NormalMoveSpeed || abs(MoveV) > NormalMoveSpeed) {
-	show_debug_message(MoveV);
 	MaxMoveSpeed -= Accel*3;
 } else {
 	MoveV += ((-up + down) * Accel);
@@ -46,4 +44,8 @@ MoveV = clamp(MoveV,-MaxMoveSpeed,MaxMoveSpeed);
 x += MoveH;
 y += MoveV;
 
-if (hp <= 0) instance_destroy();
+if (hp <= 0) {
+	instance_destroy();
+	game_restart();
+
+}

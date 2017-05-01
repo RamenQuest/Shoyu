@@ -4,7 +4,7 @@
 maxHp = 10;
 hp = maxHp;
 spd = 1;
-cooldown = 0; 
+cooldown = 0;
 attack_speed = 5;
 burst_count = 5;
 
