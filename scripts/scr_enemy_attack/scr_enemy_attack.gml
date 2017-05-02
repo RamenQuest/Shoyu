@@ -2,7 +2,11 @@ var creator_id = argument0;
 
 var inst;
 inst = instance_nearest(x, y, obj_player);
-spd = 3;
+
+if (spd < 3) {
+	spd += 1;
+	show_debug_message(spd);
+}
 
 if (distance_to_object(inst) <= 300) {
 	mp_potential_step(inst.x, inst.y, spd, false);
@@ -21,6 +25,12 @@ if (distance_to_object(inst) <= 300) {
 				break;
 			case 2:
 				show_debug_message("ATTACK 2");
+				spreadFire = instance_create_layer(x,y,"BulletsLayer",obj_spread_fire);
+				spreadFire.creator = creator_id;
+				spreadFire.target = inst;
+				spreadFire.bullet_type = obj_bullet_enemy;
+				spreadFire.bullet_count = burst_count;
+				spreadFire.spread = 90;
 				break;
 		}
 		

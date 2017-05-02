@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "5404a5fa-74c1-4cb9-97ca-d6e45a8f2c1d",
+            "Value": {
+                "id": "335fc596-84ce-475b-8f8e-49e8ecbd754c",
+                "resourcePath": "objects\\obj_spread_fire\\obj_spread_fire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5dac8f47-34e7-4e1c-9f75-b696491719dd",
             "Value": {
                 "id": "09e94236-4cbf-4591-a49c-f2f43b55f4f5",
