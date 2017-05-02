@@ -10,19 +10,9 @@ switch (state) {
 		scr_enemy_idle(); 
 		break;
 	case states.attack:
-		show_debug_message("STATE: ");
-		show_debug_message(other.state);
-		show_debug_message("SPD: ");
-		show_debug_message(other.spd);
-		show_debug_message("");
-		scr_enemy_attack();
+		scr_enemy_attack(id);
 		break;
 	case states.search:
-		show_debug_message("STATE: ");
-		show_debug_message(other.state);
-		show_debug_message("SPD: ");
-		show_debug_message(other.spd);
-		show_debug_message("");
 		scr_enemy_search();
 		break;
 }
