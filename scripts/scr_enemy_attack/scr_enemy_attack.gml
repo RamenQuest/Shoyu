@@ -5,7 +5,6 @@ inst = instance_nearest(x, y, obj_player);
 
 if (spd < 3) {
 	spd += 1;
-	show_debug_message(spd);
 }
 
 if (distance_to_object(inst) <= 300) {
@@ -14,7 +13,6 @@ if (distance_to_object(inst) <= 300) {
 	if (cooldown < 1) {
 		switch(irandom(2)) {
 			case 1:
-				show_debug_message("ATTACK 1");
 				burstFire = instance_create_layer(x,y,"BulletsLayer",obj_burst_fire);
 				burstFire.creator = creator_id;
 				burstFire.target = inst;
@@ -24,7 +22,6 @@ if (distance_to_object(inst) <= 300) {
 				burstFire.canshoot = true;
 				break;
 			case 2:
-				show_debug_message("ATTACK 2");
 				spreadFire = instance_create_layer(x,y,"BulletsLayer",obj_spread_fire);
 				spreadFire.creator = creator_id;
 				spreadFire.target = inst;
