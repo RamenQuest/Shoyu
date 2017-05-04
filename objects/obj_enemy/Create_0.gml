@@ -8,6 +8,8 @@ cooldown = 0;
 attack_speed = 5;
 burst_count = 5;
 
+attack_degree = round(irandom(360)/90)*90;
+
 image_yscale = -1;
 
 state = states.idle;
