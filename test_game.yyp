@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "5ba00c4d-c370-481a-80e3-8d1079d6d85c",
+            "Value": {
+                "id": "8529484a-6354-41dd-925b-4568a5c09e53",
+                "resourcePath": "sprites\\spr_boss\\spr_boss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5dac8f47-34e7-4e1c-9f75-b696491719dd",
             "Value": {
                 "id": "09e94236-4cbf-4591-a49c-f2f43b55f4f5",
@@ -215,10 +223,26 @@
             }
         },
         {
+            "Key": "b72a69d0-67cd-494e-acf2-837815b664f2",
+            "Value": {
+                "id": "c36e45fe-bfdf-409d-b209-97952044f8ce",
+                "resourcePath": "scripts\\scr_boss_attack\\scr_boss_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b80ed5ef-95d2-42a8-a3f9-ef086cab8e5a",
             "Value": {
                 "id": "f9206ebe-265e-446b-9e6b-b5e05fbc37b8",
                 "resourcePath": "objects\\obj_bullet_enemy\\obj_bullet_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bb099d79-35fc-4f52-8e6a-a31ac95a40a5",
+            "Value": {
+                "id": "045b49f9-a7ee-470f-887b-ce208507138c",
+                "resourcePath": "objects\\obj_boss\\obj_boss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -354,7 +378,8 @@
     "script_order": [
         "0652f2b1-b51d-466c-992a-e4ec4ed65bf1",
         "c46b12d6-4bd8-46f3-b71e-acee4c260461",
-        "d4a93b0c-dd17-43ed-9171-f5ded55802cd"
+        "d4a93b0c-dd17-43ed-9171-f5ded55802cd",
+        "b72a69d0-67cd-494e-acf2-837815b664f2"
     ],
     "tutorial": ""
 }

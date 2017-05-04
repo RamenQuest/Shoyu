@@ -3,6 +3,8 @@ global.player_score = 0;
 
 spawn_timer = 200;
 spawn_cooldown = 120;
+spawn_count = 1;
+boss_count = 1;
 
 var spawn_x;
 var spawn_y;
