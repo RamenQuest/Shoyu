@@ -37,7 +37,7 @@ if (cooldown < 1) {
 			spreadFire.target = inst;
 			spreadFire.bullet_type = obj_bullet_enemy;
 			spreadFire.bullet_count = burst_count;
-			spreadFire.spread = 90;
+			spreadFire.spread = 135;
 			break;
 	}
 		

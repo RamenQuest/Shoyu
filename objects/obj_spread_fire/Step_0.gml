@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (creator && target && bullet_type && bullet_count && spread){
+if (creator && target && bullet_type && bullet_count && spread && instance_exists(creator)) {
 	var spread_min = point_direction(creator.x, creator.y, target.x, target.y) - spread/2;
 	var step = spread / bullet_count;
 	
