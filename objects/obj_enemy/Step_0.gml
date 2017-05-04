@@ -19,4 +19,7 @@ switch (state) {
 
 
 // Kill the enemy
-if (hp <= 0) instance_destroy();
+if (hp <= 0) {
+	instance_destroy();
+	global.player_score += 1;
+}

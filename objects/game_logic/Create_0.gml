@@ -1,4 +1,5 @@
 /// @description Setup
+global.player_score = 0;
 
 spawn_timer = 200;
 spawn_cooldown = 120;
