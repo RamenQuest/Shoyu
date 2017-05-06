@@ -37,6 +37,6 @@ if (hp <= 0) {
 			instance_create_layer(x+random_range(-64,64),y+random_range(-64,64),"Instances",obj_powerup_boost);
 		}
 	}
+	global.player_score += 1*power(global.wave,2);
 	instance_destroy();
-	global.player_score += 1;
 }

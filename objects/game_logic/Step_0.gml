@@ -27,4 +27,9 @@ if (spawn_timer <= 0 && spawn_count > 0) {
 		instance_create_layer(spawn_x, spawn_y, "Instances", obj_boss);
 		boss_count -= 1;
 	}
+} else if (boss_count < 1 && !instance_exists(obj_boss) && !instance_exists(obj_enemy) && spawn_count < 1) {
+	global.wave += 1;
+	spawn_count = 5;
+	spawn_timer = 300;
+	boss_count = 1;
 }

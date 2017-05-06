@@ -3,7 +3,7 @@
 
 with (other) // other means any obj_enemy, i.e. discreet objects rather than applying to all
 {
-	hp = hp -1;
+	hp -= 1*global.wave;
 }
 
 instance_destroy();

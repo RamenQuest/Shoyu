@@ -14,6 +14,6 @@ switch (state) {
 
 // Kill the enemy
 if (hp <= 0) {
+	global.player_score += 50*power(global.wave,2);
 	instance_destroy();
-	global.player_score += 100;
 }

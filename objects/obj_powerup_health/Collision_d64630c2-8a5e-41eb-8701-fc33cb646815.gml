@@ -1,5 +1,5 @@
 /// @description Collect
 
 other.hp += 5;
-other.attack_speed = clamp(other.hp, 0, 20);
+other.hp = clamp(other.hp, 0, 100);
 instance_destroy();
