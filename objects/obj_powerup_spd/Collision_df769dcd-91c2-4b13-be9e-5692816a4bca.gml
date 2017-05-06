@@ -1,4 +1,6 @@
 /// @description Collect
 
-other.attack_speed = other.attack_speed - 8;
+if (other.attack_speed > 4) {
+	other.attack_speed -= 1;
+}
 instance_destroy();
