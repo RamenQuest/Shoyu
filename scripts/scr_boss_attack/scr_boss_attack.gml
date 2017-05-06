@@ -3,7 +3,7 @@ var creator_id = argument0;
 var inst;
 inst = instance_nearest(x, y, obj_player);
 
-if (spd < 5) {
+if (spd < 6) {
 	spd += 1;
 }
 

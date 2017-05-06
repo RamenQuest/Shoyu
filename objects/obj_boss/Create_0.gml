@@ -3,7 +3,7 @@
 // Enemy stats
 maxHp = 50;
 hp = maxHp;
-spd = 3;
+spd = 6;
 cooldown = 0;
 attack_speed = 8;
 burst_count = 8;
