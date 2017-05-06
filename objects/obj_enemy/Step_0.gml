@@ -21,16 +21,21 @@ switch (state) {
 // Kill the enemy
 if (hp <= 0) {
 	if (scr_chance(.8)) {
-		if (scr_chance(.2)) {
+		if (scr_chance(.3)) {
 			instance_create_layer(x+random_range(-64,64),y+random_range(-64,64),"Instances",obj_powerup_health);
+			instance_create_layer(x+random_range(-64,64),y+random_range(-64,64),"Instances",obj_powerup_boost);
+			instance_create_layer(x+random_range(-64,64),y+random_range(-64,64),"Instances",obj_powerup_spd);
+		} else {
+			instance_create_layer(x+random_range(-64,64),y+random_range(-64,64),"Instances",obj_powerup_spd);
 		}
+		
 		if (scr_chance(.5)) {
 			instance_create_layer(x+random_range(-64,64),y+random_range(-64,64),"Instances",obj_powerup_spd);
 		}
+		
 		if (scr_chance(.5)) {
-			instance_create_layer(x+random_range(-64,64),y+random_range(-64,64),"Instances",obj_powerup_spd);
+			instance_create_layer(x+random_range(-64,64),y+random_range(-64,64),"Instances",obj_powerup_boost);
 		}
-		instance_create_layer(x+random_range(-64,64),y+random_range(-64,64),"Instances",obj_powerup_spd);
 	}
 	instance_destroy();
 	global.player_score += 1;

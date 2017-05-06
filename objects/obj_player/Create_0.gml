@@ -12,3 +12,7 @@ cooldown = 0;
 attack_speed = 20;
 
 boost_cooldown = 0;
+
+boost_max_speed = 25;
+boost_move = 20;
+boost_cooldown_set = 180;
