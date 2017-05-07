@@ -45,7 +45,6 @@ x += MoveH;
 y += MoveV;
 
 if (hp <= 0) {
+	instance_create_layer(x,y,"Instances",restart_game);
 	instance_destroy();
-	game_restart();
-
 }

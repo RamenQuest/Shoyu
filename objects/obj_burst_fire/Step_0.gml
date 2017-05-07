@@ -1,13 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (creator && target && bullet_type && burst_count){
-	if (canshoot && instance_exists(creator)) {
+if (instance_exists(creator) && instance_exists(target) && bullet_type && burst_count){
+	creator_x = creator.x;
+	creator_y = creator.y;
+	target_x = target.x;
+	target_y = target.y;
+	if (canshoot) {
 		if (burst_count > 0) {
 			canshoot = false;
 			creator.spd -= 5;
-			var enemy_bullet = instance_create_layer(creator.x, creator.y, "BulletsLayer", bullet_type);
-			enemy_bullet.direction = point_direction(creator.x, creator.y, target.x, target.y) + random_range(-10, 10);
+
+			var enemy_bullet = instance_create_layer(creator_x, creator_y, "BulletsLayer", bullet_type);
+			enemy_bullet.direction = point_direction(creator_x, creator_y, target_x, target_y) + random_range(-10, 10);
 			burst_count -= 1;
 			alarm[0] = fire_rate * room_speed/10;
 		}
