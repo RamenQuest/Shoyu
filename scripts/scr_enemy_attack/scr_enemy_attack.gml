@@ -49,5 +49,8 @@ if (distance_to_object(inst) <= 300) {
 	
 	cooldown -= 1;
 } else {
+	last_x = inst.x;
+	last_y = inst.y;
+	last_seen = true;
 	state = states.search;
 }

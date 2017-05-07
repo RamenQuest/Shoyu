@@ -13,3 +13,6 @@ attack_degree = round(irandom(360)/90)*90;
 image_yscale = -1;
 
 state = states.idle;
+last_seen = false;
+last_x = x;
+last_y = y;

@@ -14,3 +14,8 @@ draw_circle(x, y, 300, true);
 
 draw_set_colour(c_green);
 draw_circle(x, y, 500, true);
+
+if (last_seen) {
+	draw_set_colour(c_white);
+	draw_circle(last_x, last_y, 32, true);
+}
